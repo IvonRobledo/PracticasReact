@@ -1,0 +1,91 @@
+.container_dark_purple {
+    text-align: center;
+    background-color: #5545bf;
+}
+
+.main_icon {
+    font-size: 40px;
+    color: white;
+    pointer-events: none;
+}
+
+.align_left{
+    text-align: left;
+}
+
+.button_primary{
+    color: white;
+    background-color:#3709a3;
+    font-size: 20px;
+    margin: 5px;
+    border-radius: 3px;
+    border: 0;
+    padding: 5px;
+    cursor: pointer;
+}
+
+input{
+    font-size: 20px;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 6px;
+    border: 0px;
+    min-width: 280px;
+    outline: none; 
+    border: 3px solid rgba(0, 195, 255, 0.255);
+}
+
+textarea:focus, input:focus {
+    outline: none; 
+    border: 3px solid rgba(0, 195, 255, 0.597);
+}
+
+.items{
+    background-color: white;
+}
+
+.todo_item{
+    background-color: white;
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.btn_delete{
+    background-color: #ee1d5c;
+    color: white;
+    font-size: 16px;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 3px;
+    border: 0;
+    cursor: pointer;
+}
+.btn_delete:hover{
+    background-color: #bd0b41;
+}
+
+.check{
+    font-size: 20px;
+    padding: 5px;
+    margin: 16px 10px 0px 10px;
+    border-radius: 6px;
+    border: 0px;
+    min-width: 20px;
+    transform: scale(2);
+    cursor: pointer;
+}
+
+.item_text{
+    margin-top: 12px;
+    font-size: 18px;
+    vertical-align: middle;
+    cursor: text;
+    margin-left: 10px;
+}
+
+.checked_text{
+    text-decoration: line-through;
+    text-decoration-thickness: 3px;
+}

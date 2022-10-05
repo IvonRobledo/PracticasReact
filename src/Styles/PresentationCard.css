@@ -1,0 +1,93 @@
+.pink_container {
+    text-align: center;
+    background-color: #ff99ad;
+}
+
+.purple_container {
+    text-align: center;
+    background-color: #a799ff;
+}
+
+.yellow_container{
+    text-align: center;
+    background-color: #ffd399;
+}
+
+.fixed_width{
+    width: 70vh;
+    height: 30vh;
+}
+
+.main_icon {
+    font-size: 10em;
+    color: white;
+    pointer-events: none;
+}
+
+.main_text {
+    font-size: 6em;
+    color: white;
+    margin: 0px;
+}
+
+.secondary_text{
+    font-size: 2em;
+    color: black;
+    margin-top: 0px;
+}
+
+.secondary_icon{
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.secondary_icon:hover{
+    color:white;
+}
+
+.return_text{
+    float: right;
+}
+
+.contact_text{
+    font-size: 2em;
+    color: white;
+    margin-top: 0px;
+}
+
+.contact_text span{
+    font-size: 1.5em;
+    cursor: pointer;
+    color: black;
+    margin: 0px 20px 0px 10px;
+}
+
+.align_left{
+    text-align: left;
+}
+
+@keyframes main_icon {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.button_primary{
+    color: white;
+    background-color:#bd2eb1;
+    font-size: 20px;
+    margin: 5px;
+    border-radius: 3px;
+    border: 0;
+}
+
+input{
+    padding: 5px;
+    margin: 5px;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 0px;
+}
